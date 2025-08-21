@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router-dom';
+import Home from '../Pages/Home';
 
 const Root = () => {
     return (
-        <div>
-            <h1>This is Root</h1>
+        <div className='max-w-6xl mx-auto poppins'>
             <Outlet></Outlet>
         </div>
     );
